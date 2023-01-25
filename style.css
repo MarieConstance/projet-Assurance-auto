@@ -59,6 +59,7 @@ img{
     font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
 .card 
 {
     display: flex;
@@ -66,8 +67,8 @@ img{
     justify-content: center;
 }
 .card .card-1{
-    height: 230px;
-    width: 80%;
+    height: 160px;
+    width: 70%;
     background: white;
     position: absolute;
    
@@ -86,4 +87,116 @@ img{
     text-align: center;
     font-size: 45px;
     margin-top: 60px;
+}
+.card-bleu
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+    padding-left: 50px;
+    padding-top: 0px;
+   
+}
+
+.card-bleu .card-bleu1{
+    height: 250px;
+    width: 25%;
+    background: #0092BD;
+
+}
+.teleop{
+    width:50%;
+    height: 50%;
+    justify-content: center;
+    padding-left: 20%;
+}
+.card-bleu h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-bleu .card-bleu2{
+    height: 250px;
+    width: 25%;
+    background: #0092BD;
+
+}
+.car{
+    width:50%;
+    height: 50%;
+    justify-content: center;
+    padding-left: 25%;
+}
+.card-bleu .card-bleu3{
+    height: 250px;
+    width: 25%;
+    background: #0092BD;
+
+}
+.trophy{
+    width:50%;
+    height: 50%;
+    justify-content: center;
+    padding-left: 20%;
+}
+.section-card{
+
+height: 30%;    
+}
+/*section automobile */
+
+/*image assurauto*/
+
+.assurmobile{
+    width: 1200px;
+    height: 1200px;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+/*cadre assurauto*/
+
+.card-assurauto{
+    background-color: orange;
+    width: 650px;
+    height: 200px;
+    position: absolute;
+    margin-left: 880px;
+    margin-top: 180px;
+}
+#pbleu{
+    color: #0092BD;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10px;
+    font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-assurauto p{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    margin-top: -30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.garantie{
+    width: 2000px;
+    height: 1200px;
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 450px;
+    text-align: center;
+}
+.garantie p {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.garantie li {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
