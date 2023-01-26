@@ -34,7 +34,6 @@ nav ul{
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    font-family:
      
 }
 #logo{
@@ -42,6 +41,9 @@ nav ul{
     margin-left: 50px;
    
 }
+
+/*bannière*/
+
 img{
     height: 100%;
     width: 100%;
@@ -161,32 +163,34 @@ height: 30%;
 /*cadre assurauto*/
 
 .card-assurauto{
-    background-color: orange;
-    width: 650px;
+    background-color: white;
+    width: 1000px;
     height: 200px;
     position: absolute;
     margin-left: 880px;
     margin-top: 180px;
 }
+/*petit cadre blanc*/
 #pbleu{
     color: #0092BD;
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
     margin-top: 10px;
     font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .card-assurauto p{
     color: black;
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
     margin-top: -30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/* grand cadre avec ecriture*/
 .garantie{
-    width: 2000px;
+    width: auto;
     height: 1200px;
     position: absolute;
-    margin-left: 630px;
+    margin-left: 1300px;
     margin-top: 450px;
     text-align: center;
 }
@@ -194,9 +198,174 @@ height: 30%;
     font-size: 28px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 .garantie li {
     font-size: 28px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bouton{
+    background-color: #F45656;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    border: #F45656;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+}
+
+/*section automobile1 */
+
+/*cadre assurancephoto*/
+
+.photoassurance{
+    width: 850px;
+    height: 800px;
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 1450px;
+     
+}
+
+/* grand cadre avec ecriture large*/
+.card-offre{
+    width: 1000px;
+    height: 1300px;
+    position: absolute;
+    margin-right: 1300px;
+    margin-top: 1400px;
+    text-align: center;
+}
+.card-offre p {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.card-offre li {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+}
+
+/*partie formulaire bleu*/
+
+.formulairebleu{
+    background-color: #0092BD;
+    position: relative;
+    width: 2050px;
+    height: 800px;
+    margin-top: 145rem;
+}
+.formulairebleu h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4rem;
+    color: white;
+    padding-top: 60px;
+}
+.formulairebleu h3{
+    text-align: center;
+    font-family: medium italic;
+    font-size: 40px;
+    color: white;
+}
+.form{
+    position: relative;
+    color: #fff;
+   
+   
+}
+input{
+    border: none;
+    background-color: #0092BD;
+    border-bottom: 1px solid #fff
+
+}
+ 
+/*bouton bleu*/
+.forme2 .bouton{ 
+    background-color: #0092BD;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #fff;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 80px;
+    font-size: 20px;
+   
+}
+.forme2 .bouton:hover{
+    background-color: #fff;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #0092BD;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 80px;
+}
+
+.cardformu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    
+}
+label, input{
+    font-size: 240%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    outline: none;
+}
+
+/*avant le pied de page*/
+
+.avantfooter{
+    background: #DFDFDF;
+    width: auto;
+    height: 300px;
+   
+}
+.prefooter{
+    display: flex;
+    justify-content: space-around;
+   padding-top: 20px;
+    
+}
+.imalogo{
+    width: 50%;
+    height: 30%;
+    margin-top: 10px;
+   
+}
+.prefooter p{
+    font-size: 120%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+}
+
+/*pied de page*/
+.foot{
+    background-color: #0B0404;
+    width: auto;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+.icon1, .icon2, .icon3{
+    width: 40px;
+    height: 40px;
+}
+.foot p{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    color: #fff;
+}
+.icon{
+ 
 }
