@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color: #F5F5F5;
 }
 
 /*HEADER*/
@@ -8,55 +9,125 @@ body{
 .menu-head{
     background-color: white;
     color: black;
-    /*height: 100px;
-    margin: 0px;
-    padding-top: 10px;*/
-    position: sticky;
-   
- 
+    height: 100px;
+  
 }
 ul li a{
     color:black;
-    letter-spacing:0,1rem;
     text-decoration: none;
+   
+   
 }
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+.menu ul ul{
+    position: absolute;
+    
+}
+.menuder  {
+    display: block;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+.menuder li{
+    border: solid 2px black;
+    height: 30px;
+    position: relative;
+    margin-bottom: 3px;
+    visibility: hidden;
+    background-color: #f456568b;
+    color: #fff;
+}
+
+.menuder li:hover{
+    background-color: #f456568b;
+}
+.menu ul li:hover li{
+    visibility: visible;
+}
+
 nav{
-    min-height: 10vh;
     display: flex;
     align-items: center;
     width: 100%;
     margin: auto;
     
 }
+.log{
+    margin-left: 4%;
+}
+.boutoncouleur{
+    display: flex;
+    width: 30%;
+   
+}
+/*bouton de connexion a une autre page*/
+.boutonbleu{
+    background-color: #fff;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #0092BD;
+    color: #0092BD;
+    margin-right: 10%;
+}
+.boutonrouge{
+    background-color: #fff;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #F45656;
+    color: #F45656;
+    margin-left: 10%;
+}
+/* hover des boutons*/
+.boutonbleu:hover{
+    background-color: #0092BD;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    margin-right: 10%;
+}
+.boutonrouge:hover{
+    background-color: #F45656;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #F45656;
+    color: white;
+    margin-left: 10%;
+}
+
+.menu{
+    width: 50%;
+    margin-left: 5%;
+}
 nav ul{
     display: flex;
-    flex: 1 1 40rem;
     justify-content: space-around;
     align-items: center;
     list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      
-}
-#logo{
-    flex: 1 1 40rem;
-    margin-left: 50px;
-   
 }
 
 /*bannière*/
 
-img{
-    height: 100%;
-    width: 100%;
-}
-.photofont{
-    
-    width: 100%;
-    height: 85%;
+
+.imagedelassurance{
+    width: 2050px;
+    height: 860px;
 }
 .title{
     position: absolute;
-    color: red;
-    top: 550px;
+    color: #F45656;
+    top: 55%;
     left: 400px;
     font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -67,6 +138,8 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+   
+    
 }
 .card .card-1{
     height: 160px;
@@ -98,7 +171,8 @@ img{
     justify-content: space-around;
     width: 95%;
     padding-left: 50px;
-    padding-top: 0px;
+    padding-top: 13%;
+   
    
 }
 
@@ -106,6 +180,7 @@ img{
     height: 250px;
     width: 25%;
     background: #0092BD;
+    box-shadow: 1px 1px 1px 1px rgb(197, 196, 196);
 
 }
 .teleop{
@@ -125,6 +200,7 @@ img{
     height: 250px;
     width: 25%;
     background: #0092BD;
+    box-shadow: 2px 2px 2px 2px rgb(197, 196, 196);
 
 }
 .car{
@@ -137,6 +213,7 @@ img{
     height: 250px;
     width: 25%;
     background: #0092BD;
+    box-shadow: 2px 2px 2px 2px rgb(197, 196, 196);
 
 }
 .trophy{
@@ -177,6 +254,7 @@ height: 30%;
     text-align: center;
     margin-top: 10px;
     font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
 }
 .card-assurauto p{
     color: black;
@@ -337,8 +415,8 @@ label, input{
     
 }
 .imalogo{
-    width: 50%;
-    height: 30%;
+    width: 40%;
+    height: 20%;
     margin-top: 10px;
    
 }
@@ -365,7 +443,29 @@ label, input{
     padding: 0;
     font-size: 10px;
     color: #fff;
+    font-size: 100%;
 }
+.copy{
+    width: 30%;
+    margin-left: 40%;
+    margin-top: 25px;
+   
+}
+/*icon du pied de page*/
 .icon{
- 
+    width: 20%;
+    margin-left: 30%;
+    margin-top: 15px;
+    justify-content: space-between;
 }
+.icon1{
+    margin-right: 10%;
+}
+.icon2{
+    margin-right: 10%;
+}
+.icon3{
+    margin-right: 10%;
+}
+
+
