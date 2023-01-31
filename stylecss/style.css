@@ -371,21 +371,14 @@ height: 30%;
     font-size: 40px;
     color: white;
 }
-.form{
+.formu{
     position: relative;
     color: #fff;
-   
-   
-}
-input{
-    border: none;
-    background-color: #0092BD;
-    border-bottom: 1px solid #fff
 
 }
  
 /*bouton bleu*/
-.forme2 .bouton{ 
+.formu2 .bouton{ 
     background-color: #0092BD;
     border-radius: 30px;
     width: 200px;
@@ -397,7 +390,7 @@ input{
     font-size: 20px;
    
 }
-.forme2 .bouton:hover{
+.formu2 .bouton:hover{
     background-color: #fff;
     border-radius: 30px;
     width: 200px;
@@ -414,10 +407,18 @@ input{
     margin-top: 5%;
     
 }
-label, input{
-    font-size: 240%;
+.cardformu label {
+    font-size: 180%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     outline: none;
+    color: white;
+}
+.cardformu input{
+    border: none;
+    background-color: #0092BD;
+    border-bottom: 1px solid #fff;
+    width: 20%;
+    
 }
 
 /*avant le pied de page*/
@@ -493,7 +494,7 @@ label, input{
 
 
 
-/*page de declaration de sinitre*/
+/*------------------------page de declaration de sinitre----------------------*/
 
 .cardblanc{
     width: 50%;
@@ -511,18 +512,64 @@ label, input{
 }
 /*formulaire*/
 
-form {
+/* .formul {
     
     border: 1px solid gray;
     color: white;
     background-color: #A3D9DC;
-    width: 70%; /* définir la largeur du formulaire */
-    margin: auto; /* centrer horizontalement */
+    width: 70%;
+    margin: auto; 
     text-align: center;
     display: flex;
     justify-content: space-around;
     height: 350px;
   }
+
+  .formul1 {
+    
+    border: 1px solid gray;
+    color: white;
+    background-color: #A3D9DC;
+    width: 70%; 
+    margin: auto; 
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 700px;
+  }
+
+  .formul2 {
+    
+    border: 1px solid gray;
+    color: white;
+    background-color: #A3D9DC;
+    width: 70%; 
+    margin: auto; 
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 550px;
+    margin-top: 5%;
+  }
+  .formul3 {
+    
+    border: 1px solid gray;
+    color: white;
+    background-color: #A3D9DC;
+    width: 70%; 
+    margin: auto; 
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 550px;
+    margin-top: 5%;
+  }
+  .formul3 input{
+    height: 25%;
+    width: 150%;
+    margin: auto;
+    
+}
   
   label {
     display: block;
@@ -532,36 +579,24 @@ form {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 0%;
   }
-  input {
+  .ab .bc input {
     background-color: white;
     padding: 10px 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 1%;
+    width: 200px;
+}
+
+#profession {
+    width: 400px;
 }
 .titre{
     color: #0092BD;
     text-align: center;
     margin-top: 3%;
 }
-.form2{
-    height: 700px;
-}
 #adresse{
     width: 238%;
-}
-.form3{
-    height: 520px;
-    margin-top: 10%;
-}
-.form4{
-    height: 500px;
-    margin-top: 5%;
-}
-.form4 input{
-    height: 25%;
-    width: 150%;
-    margin: auto;
-    
-}
+} */
