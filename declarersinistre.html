@@ -13,9 +13,15 @@
             <div class="log">
                 <img class="imalogo" src="images/logo_assurance.png">
             </div>
+            
             <div class="boutoncouleur">
-                <button class="boutonbleu" type="button">Declarer un sinitre</button>
-                <button class="boutonrouge" type="button">Nous contacter</button>
+                <form action="declarersinistre.html">
+                    <button class="boutonbleu" type="submit">Declarer un sinistre</button>
+                </form>
+                <form action="contact.html">
+                    <button class="boutonrouge" type="submit">Nous contacter</button>
+                </form>
+                
             </div>
             
             <div class="menu">
@@ -47,7 +53,8 @@
                 <h1>Formulaire de déclaration de sinistre auto</h1>
                 <h3>Vous avez été victime d'un sinistre auto ?<br>Vous pouvez faire votre déclaration en renseignant le formulaire.</h2>
             </div>
-            <form class="formul">
+             <!----------- formulaire 1 ---------------->
+            <form class="formul1">
                 <div >
                     <label for="dateheureaccident">Date et heure de l'accident :</label>
                     <input type="text" id="nom" name="dateheureaccident"><br><br>
@@ -63,12 +70,13 @@
                 </div>
 
               </form>  
-              <div class="titre">
+              <div class="infotitre">
                 <h1>Informations relatives aux parties</h1>  
               </div>
 
-              <form class="formul1" >
-                    <div class="ab">
+              <!----------- formulaire 2 ---------------->
+              <form class="formul2" >
+                    <div>
                         <label for="nomdeassure">Nom de l'assuré :</label>
                         <input type="text" id="nomdeassure" name="nomdeassure"><br><br>
                         <label for="numerodetelephone">  Numéro de téléphone:</label>
@@ -80,7 +88,7 @@
                         
                     </div>
                         
-                    <div class="bc">
+                    <div>
                         <label for="profession">Profession :</label>
                         <input type="text" id="profession" name="profession"><br><br>
                         <label for="email">Adresse email :</label>
@@ -91,7 +99,8 @@
 
               </form>  
 
-              <form class="formul2">
+              <!----------- formulaire 3 ---------------->
+              <form class="formul3">
                 <div class="">
                     <label for="nomconducteur">Nom du conducteur :</label>
                     <input type="text" id="adresse" name="nomconducteur"><br><br>
@@ -102,7 +111,7 @@
                 </div>
 
                 <div >
-                    <br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br>
                     <label for="email">Adresse email :</label>
                     <input type="email" id="email" name="email"><br><br>
                     <label for="validité">Validité :</label>
@@ -113,10 +122,12 @@
               </form> 
 
             </form>  
-            <div class="titre">
+            <div class="infotitre">
               <h1>Circonstances de l'accident</h1>  
             </div>
-            <form class="formul3">
+
+            <!----------- formulaire ---------------->
+            <form class="formul4">
                 <div >
                     <label for="faits">Les faits :</label>
                     <input type="text" id="faits" name="faits"><br><br>
@@ -124,8 +135,50 @@
                     <input type="text" id="dommages" name="dommages"><br><br>
                     
                 </div>
+            </form> 
 
-             
+            <button class="bout" type="button">Envoyer</button> <br><br><br><br><br><br>
+        
+             <!----------- footer ---------------->
+            <section class="avantfooter">
+                <div class="prefooter">
+                    <div>
+                        <img class="imalogo" src="images/logo_assurance.png">
+                    </div>
+                    <div>
+                        <p>Nous contacter</p>
+                        <p>Nos chiffres clés</p>
+                        <p>Nous connaittre</p>
+                        
+                    </div>
+                    <div>
+                        <p>Assurance Habitation</p>
+                        <p>Assurance Automobile</p>
+                        <p>Assurance accident de vie</p>
+                        <p>Assurance santé</p>
+                    </div>
+                    <div>
+                        <p>Atlanta Assurances Côte d’Ivoire</p>
+                        <p>Siège Angré, Avenua Boullevard Latrille</p>
+                        <p>Email: info@satlanta.ci</p>
+                        <p>Contact:0789571346/01020304</p>
+                    </div>
+
+                </div>
+
+             </section>
+            
+            <section class="foot">
+              <div class="copy">
+                <p>©copyright 2023. GOA MARIE Tous Droits Réservés</p> 
+              </div>  
+                <div class="icon">
+                    <img class="icon1" src="images/facebook.png">
+                    <img class="icon2" src="images/instagram.png">
+                    <img class="icon3" src="images/linkedin.png">
+                </div>     
+                
+            </section>
             
 </body>
 </html>
