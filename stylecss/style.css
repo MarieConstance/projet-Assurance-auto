@@ -10,7 +10,6 @@ body{
     background-color: white;
     color: black;
     height: 110px;
-   
   
 }
 ul li a{
@@ -704,6 +703,189 @@ height: 30%;
     height: 840px;
 }
 
-.formulai1{
+.paragraphe{
+    text-align: center;
     
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*-----------------formulaire-----------------------*/
+.grandediv{
+    display: flex;
+    width: 90%;
+    height: 70%;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.formulai1{
+    border: 1px solid gray;
+    background-color: #A3D9DC;
+     width: 150%;
+     height: 700px;
+     text-align: center;
+    
+}
+.formulai1 input{
+    background-color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1%;
+    width: 500px;
+    height: 10%;
+}
+.formulai1 label{
+    display: block;
+    margin-top: 1%;
+    color: black;
+    font-size: 150%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 0%;
+}
+
+.formulai2{
+    border: 1px solid gray;
+    background-color: #A3D9DC;
+     width: 150%;
+     height: 700px;
+     text-align: center;
+
+}
+.formulai2 input{
+    background-color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1%;
+    width: 500px;
+    height: 10%;
+}
+.formulai2 label{
+    display: block;
+    margin-top: 1%;
+    color: black;
+    font-size: 150%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 0%;
+}
+.formulai2 .message1{
+height: 50%;
+}
+
+.parent{
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.parent h2{
+    margin-left: 13%;
+    font-size: 40px;
+    color: #0092BD;
+}
+
+.parent2{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.assauto{
+    width: 25%;
+    height: 350px;
+    background-color: #0092BD;
+    color: white;
+    text-align: center;
+    
+}
+.assauto p {
+    font-size: 40px;
+    margin-top: 30%;
+}
+.autprod{
+    width: 25%;
+    height: 350px;
+    background-color: #0092BD;
+    color: white;
+    text-align: center;
+    
+}
+.autprod p {
+    font-size: 40px;
+    margin-top: 30%;
+}
+.boutbas1{
+    background-color: #F45656;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    border: #F45656;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15%;
+    margin-left: 0%;
+}
+.boutbas2{
+    background-color: #F45656;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    border: #F45656;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 6%;
+    margin-left: 0%;
+}
+.boutbas1:hover{
+    background-color: white;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #F45656;
+    color: #f45656;
+}
+.boutbas2:hover{
+    background-color: white;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #F45656;
+    color: #f45656;
+}
+
+.avantdernier{
+    width: 100%;
+    display: flex;
+    height: 90%;
+   
+    justify-content: space-around;
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+.avantdernier h3{
+    color: #0092BD;
+    font-size: 25px;
+}
+.avantdernier p{
+    font-size: 25px;
+}
+
+.trouver{
+    height: 50%;
+}
+.appeler img{
+    margin-right: 5px;
+}
+.ecrire img{
+    margin-left: 5px;
+    margin-bottom:-6px;
 }
